@@ -10,6 +10,15 @@
   100% {
     transform: translateY(0px); } }
 
+.footer {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  background-color: #353535;
+  color: #FFFFFF;
+  align-items: center; }
+
 .navbar {
   background-color: #ff5a00 !important;
   font-size: small; }
@@ -153,15 +162,6 @@ h1 {
 
 .img-cuenta {
   width: 1rem; }
-
-.footer {
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  margin-top: 15px;
-  background-color: #353535;
-  color: #FFFFFF;
-  align-items: center; }
 
 @media screen and (max-width: 768px) {
   .subasta-destacados {

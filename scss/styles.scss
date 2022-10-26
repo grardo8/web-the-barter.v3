@@ -1,5 +1,6 @@
 @import "variables";
 @import "efectos";
+@import "footer";
 
 .navbar {
     background-color: #ff5a00 !important;
@@ -94,6 +95,7 @@ h1 {
 
 
 /* Banner 1 y 2 */
+
 
 .banner-1 {
 
@@ -214,16 +216,6 @@ h1 {
     width: 1rem;
 }
 
-.footer {
-
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    margin-top: 15px;
-    background-color: #353535;
-    color: #FFFFFF;
-    align-items: center;
-}
 
 
 @media screen and (max-width: 768px ) {
