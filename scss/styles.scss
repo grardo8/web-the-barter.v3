@@ -1,4 +1,6 @@
-$color-categoria: #535353; 
+@import "variables";
+@import "efectos";
+
 .navbar {
     background-color: #ff5a00 !important;
     font-size: small;
@@ -42,16 +44,7 @@ $color-categoria: #535353;
 
 }
 
-@keyframes entrada-inferior {
 
-    0% {
-        transform: translateY(100px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
 /* H1 Y H2 DESTACADO */
 
 h2 {
@@ -201,17 +194,7 @@ h1 {
 }
 
 
-@keyframes roducto-caja-categoria {
 
-0% {
-    transform: translateY(100px);
-}
-
-100% {
-    transform: translateY(0px);
-}
-
-}
 .categoria-prod  {
     font-size: 10px;
     font-style: oblique;
@@ -230,7 +213,6 @@ h1 {
 .img-cuenta {
     width: 1rem;
 }
-/* Footer */
 
 .footer {
 
@@ -242,6 +224,7 @@ h1 {
     color: #FFFFFF;
     align-items: center;
 }
+
 
 @media screen and (max-width: 768px ) {
 

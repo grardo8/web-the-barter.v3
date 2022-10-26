@@ -1,3 +1,15 @@
+@keyframes entrada-inferior {
+  0% {
+    transform: translateY(100px); }
+  100% {
+    transform: translateY(0px); } }
+
+@keyframes roducto-caja-categoria {
+  0% {
+    transform: translateY(100px); }
+  100% {
+    transform: translateY(0px); } }
+
 .navbar {
   background-color: #ff5a00 !important;
   font-size: small; }
@@ -25,12 +37,6 @@
 .menu-imagenes-categoria {
   display: relative;
   align-items: center; }
-
-@keyframes entrada-inferior {
-  0% {
-    transform: translateY(100px); }
-  100% {
-    transform: translateY(0px); } }
 
 /* H1 Y H2 DESTACADO */
 h2 {
@@ -133,12 +139,6 @@ h1 {
   animation-name: entrada-inferior;
   animation-duration: 2s; }
 
-@keyframes roducto-caja-categoria {
-  0% {
-    transform: translateY(100px); }
-  100% {
-    transform: translateY(0px); } }
-
 .categoria-prod {
   font-size: 10px;
   font-style: oblique;
@@ -154,7 +154,6 @@ h1 {
 .img-cuenta {
   width: 1rem; }
 
-/* Footer */
 .footer {
   text-align: center;
   padding-top: 15px;
