@@ -4,3 +4,181 @@
 
 .nav-link {
   color: #ffffff; }
+
+.menu-imagenes {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  animation-name: entrada-inferior;
+  animation-duration: 2s;
+  flex-wrap: wrap; }
+
+.menu-imagenes p {
+  display: flex;
+  justify-content: center;
+  color: #2a2a2a;
+  font-weight: bold; }
+
+.menu-imagenes-categoria {
+  display: relative;
+  align-items: center; }
+
+@keyframes entrada-inferior {
+  0% {
+    transform: translateY(100px); }
+  100% {
+    transform: translateY(0px); } }
+
+/* H1 Y H2 DESTACADO */
+h2 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #0e0e0e;
+  text-align: center;
+  font-size: 20px; }
+
+h1 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #0e0e0e;
+  text-align: center;
+  font-size: 20px; }
+
+/* CATEGORIAS DESTACADAS */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  list-style-type: none; }
+  .container .container ul {
+    list-style-type: none; }
+  .container .container ul li {
+    font-size: medium; }
+
+/* Banner 1 y 2 */
+.banner-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px; }
+
+.banner-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px; }
+
+/* SUBASTA DESTACADAS */
+.subasta-destacados {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap; }
+
+.subasta-destacados ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  width: 150px; }
+
+.producto-subasta-caja {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  box-shadow: 1px 1px 1px 1px #dddddd;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-type: none; }
+
+.categoria-subasta-prod {
+  font-size: 10px;
+  font-style: oblique;
+  color: #535353; }
+
+.menu-imagenes-categoria:hover {
+  transform: scale(1.1); }
+
+/* Categorias */
+.productos-categoria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center; }
+
+.productos-categoria ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none; }
+
+.producto-caja-categoria {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px #dddddd;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+  animation-name: entrada-inferior;
+  animation-duration: 2s; }
+
+@keyframes roducto-caja-categoria {
+  0% {
+    transform: translateY(100px); }
+  100% {
+    transform: translateY(0px); } }
+
+.categoria-prod {
+  font-size: 10px;
+  font-style: oblique;
+  color: #535353;
+  margin-bottom: 0px; }
+
+.nombre-prod {
+  font-size: 12px;
+  font-style: oblique;
+  color: #000000;
+  margin-bottom: 0px; }
+
+.img-cuenta {
+  width: 1rem; }
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  background-color: #353535;
+  color: #FFFFFF;
+  align-items: center; }
+
+@media screen and (max-width: 768px) {
+  .subasta-destacados {
+    flex-direction: row; }
+  .menu-imagenes {
+    display: none; }
+  h2 {
+    font-size: 15px; }
+  h1 {
+    font-size: 15px; }
+  .banner-1 {
+    display: none; }
+  .banner-2 {
+    display: none; } }
+
+@media screen and (max-width: 420px) {
+  .producto-subasta-caja {
+    flex-direction: column;
+    align-items: center; } }
