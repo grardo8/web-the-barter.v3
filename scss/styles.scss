@@ -82,15 +82,17 @@ h1 {
     list-style-type: none;
 
 
-    .container ul { 
+    ul {
 
-    list-style-type: none;
+        list-style-type: none;
+
+        li {
+            font-size: medium;
+
+        }
     }
 
-.container ul li {
-    font-size: medium;
 
-}
 }
 
 
@@ -197,7 +199,7 @@ h1 {
 
 
 
-.categoria-prod  {
+.categoria-prod {
     font-size: 10px;
     font-style: oblique;
     color: $color-categoria;
@@ -207,7 +209,7 @@ h1 {
 .nombre-prod {
     font-size: 12px;
     font-style: oblique;
-    color: #000000; 
+    color: #000000;
     margin-bottom: 0px;
 }
 
@@ -218,7 +220,7 @@ h1 {
 
 
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 768px) {
 
     .subasta-destacados {
         flex-direction: row;
@@ -228,40 +230,41 @@ h1 {
 
         display: none;
     }
+
     h2 {
 
         font-size: 15px;
-    
+
     }
-    
+
     h1 {
-    
+
         font-size: 15px;
-    
+
     }
 
     .banner-1 {
         display: none;
-    
+
     }
-    
+
     .banner-2 {
         display: none;
-    
+
     }
-    
-    
+
+
 
 }
 
-@media screen and (max-width: 420px ) {
+@media screen and (max-width: 420px) {
 
-.producto-subasta-caja {
+    .producto-subasta-caja {
 
 
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        align-items: center;
 
-}
+    }
 
 }
