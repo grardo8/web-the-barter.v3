@@ -29,13 +29,13 @@
 .menu-imagenes {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 30px;
   animation-name: entrada-inferior;
   animation-duration: 2s;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px; }
 
 .menu-imagenes p {
   display: flex;

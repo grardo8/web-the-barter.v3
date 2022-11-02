@@ -2,6 +2,16 @@
 @import "efectos";
 @import "footer";
 
+@mixin menuimg ($padtop, $padrig, $padbot, $padlef){
+
+    padding-top: $padtop;
+    padding-right: $padrig;
+    padding-bottom: $padbot;
+    padding-left: $padlef;
+   
+   
+}
+
 .navbar {
     background-color: #ff5a00 !important;
     font-size: small;
@@ -19,13 +29,10 @@
 
     display: flex;
     justify-content: space-evenly;
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 30px;
     animation-name: entrada-inferior;
     animation-duration: 2s;
     flex-wrap: wrap;
+    @include menuimg(30px, 15px, 30px, 15px);
 
 }
 
@@ -268,3 +275,4 @@ h1 {
     }
 
 }
+
