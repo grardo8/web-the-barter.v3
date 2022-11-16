@@ -1,0 +1,36 @@
+@mixin menuimg ($padtop, $padrig, $padbot, $padlef){
+
+    padding-top: $padtop;
+    padding-right: $padrig;
+    padding-bottom: $padbot;
+    padding-left: $padlef;
+   
+   
+}
+
+.menu-imagenes {
+
+    display: flex;
+    justify-content: space-evenly;
+    animation-name: entrada-inferior;
+    animation-duration: 2s;
+    flex-wrap: wrap;
+    @include menuimg(30px, 15px, 30px, 15px);
+
+}
+
+.menu-imagenes p {
+
+    display: flex;
+    justify-content: center;
+    color: #2a2a2a;
+    font-weight: bold;
+
+}
+
+.menu-imagenes-categoria {
+
+    display: relative;
+    align-items: center;
+
+}
