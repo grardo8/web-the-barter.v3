@@ -189,6 +189,31 @@ h1 {
     width: 1rem;
 }
 
+/* Extend */
+
+
+.micuenta {
+
+
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 1px 1px 12px 0px rgb(0,0,0.15)
+    
+}
+
+.registro {
+    @extend .micuenta;
+    max-width: 800px;
+    align-items: flex-start
+}
+
+.inicio-sesion {
+    @extend .micuenta;
+    max-width: 350px;
+    align-items: flex-start
+}
+
 
 
 @import "reponsive";

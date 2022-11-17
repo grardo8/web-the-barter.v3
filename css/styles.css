@@ -163,6 +163,21 @@ h1 {
 .img-cuenta {
   width: 1rem; }
 
+/* Extend */
+.micuenta, .registro, .inicio-sesion {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 1px 1px 12px 0px black; }
+
+.registro {
+  max-width: 800px;
+  align-items: flex-start; }
+
+.inicio-sesion {
+  max-width: 350px;
+  align-items: flex-start; }
+
 @media screen and (max-width: 768px) {
   .subasta-destacados {
     flex-direction: row; }
